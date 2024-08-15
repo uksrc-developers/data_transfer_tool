@@ -37,16 +37,16 @@ ___
 
 <details>
 <summary>Detailed example</summary>
-- It is highly recommended to activate `screen` before running the code so that long transfers continue even when you close your terminal, e.g
-.: `> screen -S your_session_name`.
+
+- It is highly recommended to activate `screen` before running the code so that long transfers continue even when you close your terminal, e.g.: `> screen -S your_session_name`.
 - Open `data_transfer_script.sh` for modification using e.g. `> vi data_transfer_script.sh`.
 - Edit line under `WRITE YOUR TRANSFER LINE HERE` using the commented examples as a template.
 - Save your changes.
 - Make sure code is executable using, e.g., `> chmod g+rwx data_transfer_script.sh`.
 - Run code using `> . data_transfer_script.sh`.
 - The code will create two files.
-- If you created a screen before running the code and exited the terminal, you can rejoin the screen in a new terminal at any point using `> s
-creen -r your_session_name`.
+- If you created a screen before running the code and exited the terminal, you can rejoin the screen in a new terminal at any point using `> screen -r your_session_name`.
+
 </details>
 
 ___
